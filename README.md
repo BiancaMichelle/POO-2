@@ -26,16 +26,20 @@ devolución.
     - Cada avión tiene un modelo, una capacidad máxima de pasajeros y pertenece a una aerolínea.
     - Los aeropuertos tienen un código único, un nombre y una ciudad.
 
+#### Concideraciones:
+>Las flechas con diamantes pintados negros representan una relación de composición, en donde si se elimina una instancia de la clase del lado del diamante todas las instancias relacianadas con esa tambien se eliminaran.
+Las flechas con diamantes representan una relacion de agregación, en donde si se elimina la clase que tiene el diamante no necesariameente se eliminaran las instancias relacionadas con la misma.
+Las lineas que unen sin flechas son una representacion de una relacion simple entre los objetos.
+
 ### Diagramas de clases:
 ###### Sistema de biblioteca 
-![Página 1](https://i.imgur.com/jREq2ec.png)
-
+![Diagrama 1](https://i.imgur.com/z4vQUaI.png)
 ---
 
 ###### Sistema de Gestión de Pedidos de Restaurante 
-![Página 2](https://i.imgur.com/txgu97J.png)
+![Diagrama 2](https://i.imgur.com/txgu97J.png)
 
 ---
 
 ###### Sistema de Reservas de Vuelos
-![Diagráma 3](https://i.imgur.com/Itm9W9D.png)
+![Diagrama 3](https://i.imgur.com/SVxhWRB.png)
